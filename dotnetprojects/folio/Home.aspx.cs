@@ -47,7 +47,7 @@ public partial class _Default : System.Web.UI.Page
         //smtp.EnableSsl = true;
         //System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
         //NetworkCred.UserName = "sunny.gp07@gmail.com";
-        //NetworkCred.Password = "Sunny123";
+        //NetworkCred.Password = "";
         //smtp.UseDefaultCredentials = true;
         //smtp.Credentials = NetworkCred;
         //smtp.Port = 587;
@@ -68,7 +68,7 @@ public partial class _Default : System.Web.UI.Page
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
                 smtpClient.EnableSsl = true;
                 smtpClient.Credentials = new
-                    System.Net.NetworkCredential("sunny.gp07@gmail.com", "Sunny123");
+                    System.Net.NetworkCredential("sunny.gp07@gmail.com", "");
                 smtpClient.Send(mailMessage);
 
                 Label1.ForeColor = System.Drawing.Color.Blue;
