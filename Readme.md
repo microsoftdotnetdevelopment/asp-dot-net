@@ -2,7 +2,7 @@
 
 Welcome to my YouTube channel! 🎉 In this channel, I share exciting content related to web development. Whether you're interested in Angular, Javascript, or Productivity tips, you'll find something valuable here.
 [YouTube Channel](http://youtube.com/@neweraofcoding)
-
+https://dotnethow.net/path
 ## About Me
 
 I'm Sam, and I'm passionate about product engineering and web development. I create videos that will help you learn web development.
